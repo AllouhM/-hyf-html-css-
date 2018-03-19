@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(239, 242, 242);
+  }
+  h1 {
+    text-decoration: underline;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgba(66, 212, 190, 0.1);
+    color: rgba(28, 1, 9, 7);
+  }
+  h2 {
+    text-align: center;
+    text-weight: bold;
+    color: rgba(237, 216, 31, 0.9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #mahmoud-photo {
+    float: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin: 3px;
+  }
+  #love-mahmoud-darwish {
+    text-align: center;
+  }
+  .MD-color {
+    color: deeppink;
+  }
+  .content {
+    width: 850px;
+    position: relative;
+    top: 3px;
+    left: 30px;
+  }
+  th {
+    background-color: cyan;
+  }
+  td {
+    position: relative;
+    left: 10px;
+  }
+  
+  #go-up {
+    float: right;
+  }
+  div {
+    font-family: garamond;
+    font-size: 20px;
+    color: rgb(66, 73, 112);
+    line-height: 1.5em;
+    text-align: left;
+    margin: 10px;
+  }
+  .h3-css {
+    color: red;
+    text-shadow: 5px 5px 5px rgba(199, 82, 127, 0.8);
+  }
+  #photo-2 {
+    width: 70%;
+    border: 3px solid rgb(54, 32, 54);
+    margin-top: 20px;
+  }
+  #videos {
+    margin-top: 25px;
+    padding: 10px;
+   
+  }
+  
