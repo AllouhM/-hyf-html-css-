@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(172, 134, 209);
+    font-family: sans-serif;
+    background-image: url(https://s14.postimg.org/fiucyxicx/photo-background-11327.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+
+}
+#home-p {
+    width:25px;
+    height:25px;
+    float: right;
+    margin-right: 30px;
+    position:fixed;
+    margin-left: 1100px;
+   
+}
+
+
+#header-nav{
+     
+    padding:40px;
+    max-width:980px;
+  
+}
+
+header{
+    background-color: rgba(100, 207, 23, 0.3);
+    padding: 16px;
+    height:300px;
+    border-radius:63px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    width:980px;
+    margin-left: 15%;
+    box-shadow:5px 5px 5px rgb(212, 97, 97);
+}
+#mahmoud-image{
+    margin:0 auto;
+    display: block;
+    widows:185px;
+    height:185px;
+    border-radius:50%;
+    
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    line-height:55px;
+    color: goldenrod;
+    text-shadow:5px 5px 5px rgba(75, 54, 9, 0.939);
+   
+}
+header h2{
+    text-align: center;
+    font-variant: small-caps;
+    color: rgb(218, 122, 32); 
+    text-shadow:5px 5px 5px rgba(130, 114, 66, 0.939);
+    
+}
+
+   
+}
+.main-menu{
+    text-align: center;
+    padding: 6px 0 6px 0;
+    line-height: 30px;
+    background-color: darkred;
+    
+    
+}
+ul.main-menu {
+    margin-top: 20px;
+    border-radius:63px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height:50px;
+    box-shadow:2px 2px 2px rgb(216, 106, 106);
+    margin-left: 10PX;
+    width:1225px;
+    
+}
+.main-menu li{
+    display:inline;
+    padding:0px 13px 0px 13px;
+    font-size: 15px; 
+    
+}
+.main-menu a{
+    text-decoration: none;
+    color:rgba(100, 11, 60, 0.6);
+    padding: 9px;
+    font-variant: small-caps;
+    transition: background-color,0.5s ease;
+    font-family: cursive;
+
+    
+
+}
+.main-menu a:hover{
+    background-color: whitesmoke;
+    background-color: rgba(255, 10, 0, 0.5);
+}
+ .personal-info {
+    background-color: rgba(156, 221, 25, 0.4);
+    line-height:30px;
+    padding:20px;
+    width:60%;
+    border-radius:63px;
+    box-shadow:2px 2px 2px rgb(229, 233, 6);
+    margin-left: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+ article.courses{
+    padding: 40px;
+    background-color:rgba(95, 135, 187, 0.3);
+    margin:20px 30px 20px 15px;
+    box-shadow:2px 2px 2px rgb(220, 204, 83);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Itim', cursive;
+    line-height: 28px;
+    border-radius:63px;
+    width:70%;
+}
+ section.work{
+    padding: 40px;
+    background-color:  rgba(92, 135, 95, 0.3);
+    margin:30px 30px 20px 50px;
+    box-shadow:7px 7px 7px rgb(247, 1, 1);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Itim', cursive;
+    line-height: 28px;
+    border-radius:63px;
+    width:85%;
+ }
+ article.learning{
+    padding: 40px;
+    background-color:rgba(212, 118, 17, 0.3);
+    margin:20px 30px 20px 15px;
+    box-shadow:7px 7px 7px rgb(10, 143, 167);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Itim', cursive;
+    line-height: 28px;
+    border-radius:63px;
+    width:70%; 
+ }
+ .video{
+     margin-right: 700px;
+ }
+ 
+.platforms{
+    padding: 40px;
+    background-color:rgba(247, 231, 14, 0.3);
+    margin:20px 30px 20px 15px;
+    box-shadow:7px 7px 7px rgb(10, 143, 167);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Itim', cursive;
+    line-height: 28px;
+    border-radius:63px;
+    width:70%; 
+    }
+.platforms img {
+    border-radius:50%;
+    width:60px;
+    height:30px;
+    padding:15px;
+    margin-left:50px;
+}
+.platforms li{
+    display:inline;
+} 
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    
+    
+}
+.flex-container div {
+    border-width:2px;
+    border-color: black;
+    border-style: solid;
+    Padding:15px;
+    width: 45%;
+    border-radius:63px;
+    box-shadow:2px 2px 2px rgb(216, 106, 106);
+}
+ section.education-language {
+    width:80%;
+    border-radius:63px;
+    padding:15px 15px 10px 15px;
+    background-color:rgba(186, 71, 157, 0.6);
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow:2px 2px 2px rgb(220, 204, 83);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 25px;
+
+}
+main h1{
+    text-decoration: underline;
+    text-shadow:2px 2px 2px rgb(224, 8, 199);
+}
+footer{
+    padding: 10px;
+    background-color:rgba(242, 197, 225, 0.3);
+    margin:20px 15px 20px 15px;
+    box-shadow:7px 7px 7px rgb(62, 167, 10);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Itim', cursive;
+    line-height: 20px;
+    border-radius:63px;
+    width:60%; 
+    margin-left: 200px;
+}
+
+
+    
