@@ -1,7 +1,7 @@
 body{
     background-color: rgb(172, 134, 209);
     font-family: sans-serif;
-    background-image: url(https://s14.postimg.org/fiucyxicx/photo-background-11327.jpg);
+    background-image: url("https://s14.postimg.org/fiucyxicx/photo-background-11327.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
