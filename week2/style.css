@@ -1,0 +1,124 @@
+body {
+    max-width: 95%;
+    font-family: cursive;
+    padding: 5px;
+    margin-left: 5px;
+    background-image: url(https://s18.postimg.org/4i87zdoeh/4730914-images-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {display:inline-block; text-align: center; }
+
+h1{ color:lawngreen; margin-left:20px; }
+
+h2{ 
+    font-size:1.7em;
+    text-decoration: underline;
+    color:deeppink;
+    text-shadow: 5px 3px rgba(19, 18, 18,0.3);
+}
+#grid-floats li {
+    float: left;
+    display:inline;
+    margin: 10px;
+    border:2px solid black;
+    border-radius: 20px;
+    box-shadow:2px 2px 2px pink; 
+}
+
+#grid-floats li:nth-of-type(1){ box-shadow:5px 5px 5px greenyellow; }
+#grid-floats li:nth-of-type(1):hover{ background-color:lightgray; }
+#grid-floats li:nth-of-type(7){ box-shadow:5px 5px 5px greenyellow; }
+#grid-floats li:nth-of-type(7):hover{ background-color:lightgray; }
+#grid-floats li:nth-of-type(14){ box-shadow:5px 5px 5px greenyellow }
+#grid-floats li:nth-of-type(14):hover{ background-color:lightgrey; }
+#grid-flex li:nth-of-type(1){ box-shadow:5px 5px 5px greenyellow; }
+#grid-flex li:nth-of-type(1):hover { background-color:lightgray; }
+#grid-flex li:nth-of-type(7){ box-shadow:5px 5px 5px greenyellow; }
+#grid-flex li:nth-of-type(7):hover{ background-color:lightgray; }
+#grid-flex li:nth-of-type(14){ box-shadow:5px 5px 5px greenyellow; }
+#grid-flex li:nth-of-type(14):hover{ background-color:lightgray; }
+
+@keyframes box-float {
+        from{ height: 10px; background-color:white; }
+        to { height:500px; background-color:  rgba(5, 242, 64, 0.9); }
+    } 
+
+@media  screen  and  (min-width:1024px) {
+    #grid-floats li{ height: 500px; background-color:rgba(5, 242, 64, 0.6);} 
+    #grid-floats li:nth-of-type(1) { width:46.5%;}
+    #grid-floats li:nth-of-type(2) { width:22.5%;}
+    #grid-floats li:nth-of-type(3) { width:22.5%;}
+    #grid-floats li:nth-of-type(n+4) { width:22.3%;}
+    #grid-floats h3 { margin-left:7px; margin-right:7px;}
+    #grid-floats img { width:120px; height:120px:}
+    #grid-floats p { padding: 4px;}
+}
+
+@media  screen  and  (max-width:1024px) {
+    #grid-floats li:nth-of-type(1) { width:42.2%; height:370px;}
+    #grid-floats li:nth-of-type(2) { width:42.2%; height:370px;}
+    #grid-floats li:nth-of-type(n+3) { width:26.9%; height:575px;}
+    #grid-floats img { width:90px; height:90px;}
+    #grid-floats h3 { font-size: 1em; margin:7px;}
+    #grid-floats p { padding: 4px; font-size:0.8em;}
+    #grid-floats li { background-color:rgba(255, 165, 0, 0.6);}
+}
+
+@media  screen  and  (max-width:480px) {
+    #grid-floats li:nth-of-type(1) { width:80%; height: 275px;}
+    #grid-floats li:nth-of-type(n+2) { width:37%; height:450px;}
+    #grid-floats img { width:65px; height:65px;}
+    #grid-floats h3 { font-size: 0.8em; margin:7px;}
+    #grid-floats p { font-size:0.55em; padding: 4px;}
+    #grid-floats li { background-color:rgba(135,206,235, 0.6)}
+}
+#grid-flex { display:flex; flex-direction:row; flex-wrap:wrap;}
+
+#grid-flex li {
+    height:500px;
+    margin: 10px;
+    border-radius: 20px;
+    border:2px solid black;
+    display:inline;
+    width:300px;
+    box-shadow:3px 3px 3px pink;
+    background-color: rgba(5, 242, 64, 0.6);
+}
+#grid-flex img { width:90px; height:90px;}
+
+@media  screen  and  (min-width:1024px) { 
+    #grid-flex li:nth-of-type(1) { width:46.5%;}
+    #grid-flex li:nth-of-type(2) { width:22.5%;}
+    #grid-flex li:nth-of-type(3) { width:22.5%;}
+    #grid-flex li:nth-of-type(n+4) { width:22.3%;}
+    #grid-flex h3 { margin-left:7px; margin-right:7px;} 
+    #grid-flex img { width:120px; height:120px;}
+    #grid-flex p { padding: 4px;}
+}
+@media  screen  and  (max-width:1024px) { 
+    #grid-flex li:nth-of-type(1) { width:42.2%; height: 350px;}
+    #grid-flex li:nth-of-type(2) { width:42.2%; height: 350px;}
+    #grid-flex li:nth-of-type(n+3) { width:26.9%; height:575px;}
+    #grid-flex img { width:90px; height:90px;}
+    #grid-flex h3 { font-size: 1em; margin:7px;}
+    #grid-flex p { padding: 4px; font-size:0.8em;}
+    #grid-flex li { background-color:rgba(255, 165, 0, 0.6);}  
+}
+@media  screen  and  (max-width:480px) {
+    #grid-flex li:nth-of-type(1) { width:80%; height: 275px;}
+    #grid-flex li:nth-of-type(n+2) { width:37%; height:450px;}
+    #grid-flex img { width:65px; height:65px;}
+    #grid-flex h3 { font-size: 0.8em; margin:7px;}
+    #grid-flex p { font-size:0.55em; padding: 4px;}
+    #grid-flex li { background-color:rgba(135,206,235, 0.6)}   
+}
+.grid-item{
+    animation-name: box-float;
+    animation-delay: 0.5s;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode:backwards;
+}
