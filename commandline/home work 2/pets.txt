@@ -1,7 +1,0 @@
-cat
-dog
-dog
-- e dog\r
-dog
-hamster
-dog
