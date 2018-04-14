@@ -1,0 +1,500 @@
+   13  echo "Merhaba" > greeting.txt 
+   14  cat greeting.txt 
+   15  echo "hello" >> greeting.txt 
+   16  cat names.txt 
+   17  cat greeting.txt 
+   18  echo "salam" >> greeting.txt 
+   19  cat greeting.txt 
+   20  echo "shlonek" greeting.txt 
+   21  cat greeting.txt 
+   22  cat >> greeting.txt 
+   23  cat 
+   24  cat greeting.txt 
+   25  cd names
+   26  ls
+   27  cat names.txt 
+   28  echo "mahmoud" >> names.txt 
+   29  cat names.txt 
+   30  echo "zaed" >> names.txt 
+   31  echo "Mohammad" >> names.txt 
+   32  echo "Rami" >> names.txt 
+   33  cat -n names.txt 
+   34  wc names.txt 
+   35  history > my history.txt
+   36  pwd
+   37  history
+   38  cat names.txt 
+   39  echo "philipp\r" >> names.txt 
+   40  echo names.txt 
+   41  cat names.txt 
+   42  echo -e "philipp\r" >> names.txt 
+   43  echo -e "philipp\r" >> names.txt 
+   44  history
+   45  pwd
+   46  echo "hello" "hello" "hello" "hello" "hello" > moody.txt 
+   47   history
+   48  pwd
+   49  sl
+   50  ls
+   51  cd text
+   52  ls
+   53  cat text
+   54  cat names.txt 
+   55  cp "zaed" / names.txt moody.txt 
+   56  paste "zaed" moody.txt 
+   57  ls
+   58  cat test/
+   59  cp "zaed" names.txt test.txt
+   60  cp "zaed" moody.txt 
+   61  cp "zaed" names.txt moody.txt 
+   62  cat names.txt 
+   63  cd names.txt 
+   64  cp names.txt nam.text
+   65  cp names.txt "Hello" 1.txt
+   66  ls
+   67  cat
+   68  cat names.txt 
+   69  echo "mahmoud" 1.txt
+   70  commit mahmoud
+   71  git commit
+   72  mkdir 1.txt
+   73  touch 1.txt
+   74  cd students
+   75  pwd
+   76  touch ma.txt
+   77  touch 1.txt
+   78  touch 1.txt
+   79  cp "zaed" names.txt 1.txt 
+   80  cp names.txt 1.txt 
+   81  echo "cat > pets.txt
+   82  echo "cat" > pets.txt
+   83  pwd
+   84  cat names.txt 
+   85  cp cat names.txt mama.txt
+   86  touch mama.txt
+   87  cp cat "zaed" names.txt mama.txt 
+   88  csplit names.txt memo.txt 
+   89  cp "zaed" baba.txt
+   90  cp names.txt / "zaed\
+   91  cp names.txt / "zaed" baba.txt
+   92  cp names.txt / "zaedcp names.txt / "zaed" baba.txt
+   93  touch baba.txt
+   94  cp names.txt "zaed" baba.txt 
+   95  cp names.txt "zaed" mahmoud/hyfcli15/students/baba.txt
+   96  cp names.txt "zaed" mahmoud/hyfcli15/students
+   97  echo "cat" "ls" >> waw.txt
+   98  pwd
+   99  history > tody.txt
+  100  cd/bin
+  101  >cd / bin
+  102  >ls -l
+  103  >cd / bin >ls -l
+  104  ls -l /bin
+  105  ll/ bin
+  106  git help [command]
+  107  attrib+h hidden.txt
+  108  attrib +h file.txt
+  109  pwd
+  110  cd students
+  111  cd hyfcli15
+  112  pwd
+  113  attrib +h leesh.txt
+  114  attrib touch +h leesh.txt
+  115  touch leesh.txt
+  116  attrib +h leesh.txt
+  117  mkdir -p These/folders/are/just/for/Fun
+  118  echo "tset" > fun
+  119  echo "another test" >> fun
+  120  wc -c fun
+  121  echo "test" > fun.txt
+  122  echo -e "another test\r" >> fun.txt
+  123  cat fun.txt
+  124  echo " test" > fun.txt
+  125  echo "another test" >> fun.txt
+  126  echo "text" > fun.txt
+  127  echo "another test" >> fun.txt 
+  128  cat fun.txt 
+  129  echo " test another test" > fun.txt
+  130  cat fun.txt 
+  131  pwd
+  132  cd assignmet
+  133  cd assignment
+  134  pwd
+  135  cd assignmet
+  136  pwd
+  137  cd assignment
+  138  touch Mahmoud hidden.txt
+  139  attrib +h Mahmoud hidden.txt 
+  140  touch mahmoud.txt
+  141  attrib +h mahmoud.txt 
+  142  pwd
+  143  ls
+  144  cd students
+  145  cd dtudents
+  146  cd students
+  147  cd hyfcli15/students
+  148  cd hyfcli15
+  149  cd hyfcli15
+  150  pwd
+  151  cd hyfcli15
+  152  ./
+  153  ../
+  154  pwd
+  155  cd hyfcli15
+  156  cd c/user/mahmoud/hyfcli15
+  157  cd assignmet1
+  158  cd hyufcli15
+  159  cd hyfcli15
+  160  cd c/Users/Mahmoud/hyfcli15
+  161  pwd
+  162  cd assignment
+  163  mkdir assignment1
+  164  cd assignment1
+  165  pwd
+  166  touch mahmoud.txt
+  167  attrib +h mahmoud.txt 
+  168  mkdir -p these/folders/are/just/for/fun
+  169  echo "test" > fun.txt
+  170  echo "another test" >> fun.txt 
+  171  wc -c fun.txt 
+  172  pwd
+  173  ls
+  174  echo 
+  175  echo "test" > fun.txt 
+  176  echo "another test" >> fun.txt 
+  177  cat fun.txt 
+  178  echo " test another test" > fun.txt 
+  179  cat fun.txt 
+  180  pwd
+  181  ls -a
+  182  history > homework1.txt
+  183  ls
+  184  pwd
+  185  cd hyfcli15
+  186  ls
+  187  echo "text" fun.txt 
+  188  cat fun.txt 
+  189  echo "test" > fun.txt 
+  190  cat fun.txt 
+  191  echo "another test" >> fun.txt 
+  192  cat fun.txt 
+  193  echo "test" > fun.txt 
+  194  echo-e "another test\r" >> fun.txt 
+  195  echo -e "another test\r" >> fun.txt 
+  196  cat fun.txt 
+  197  echo -e "another test\r" >> fun.txt 
+  198  cat  fun.txt 
+  199  history > test.txt
+  200  ls
+  201  ls -a 
+  202  history > homew  work 1.txt
+  203  ls
+  204  cd hyfcli15
+  205  cat
+  206  pwd
+  207  cd /c/Users/mahmoud && mkdir homework2
+  208  cd homework2
+  209  pwd
+  210  cd hyfcli15
+  211  cd students
+  212  ls students
+  213  cd ..
+  214  cd ..
+  215  ls
+  216  cd hyfcli15
+  217  cd /
+  218  cd -
+  219  cd /c/mahmoud/my\documents
+  220  cd / home/mahmoud/documents
+  221  cd/c/users/mahmoud/my\documents
+  222  cd/c/users/mahmoud/documents
+  223  cd /c /users/ mahmoud/ Documents
+  224  cd/ /c/Users/Mahmoud/Documents
+  225  cd/ /c/Users/Mahmoud/Documents
+  226  cd /c/Users/Mahmoud/Documents
+  227  pwd
+  228  cd hyfcli15
+  229  cd..
+  230  cd ..
+  231  pwd
+  232  cd hyfcli15
+  233  cd ../hyfcli15
+  234  cd ../
+  235  cd ../
+  236  cd ../
+  237  cd hyfcli15
+  238  cd /c/Users/Mahmoud/hyfcli15
+  239  cd ../Documents/
+  240  cd / 
+  241  pwd
+  242  cd ..
+  243  pwd
+  244  cd hyfcli15
+  245  cd /c/Users/Mahmoud/hyfcli15
+  246  pwd
+  247  mkdir delme
+  248  ls
+  249  cd delme
+  250  ls
+  251  ls -a
+  252  echo "hello" > .greeting
+  253  ls
+  254  ls -a
+  255  cat .greeting
+  256  ls
+  257  pwd
+  258  for i in {1..5}; do echo "hello"; done
+  259  for x in {1..5}; do echo "$x"; done
+  260  for i in {1..50}; do echo "$x"; done
+  261  pwd
+  262  for i in {1..50}; do echo "$x"; done > numbers
+  263  for i in {1..50}; do echo "$x"; done
+  264  for i in {1..50}; do echo "$x"; done > numbers.txt
+  265  for u in {1..5}; do echo "$x"; done > numberss.txt
+  266  for i in {1..10}/; for i in {1..10}; do touch $i.txt; done
+  267  ls
+  268  pwd
+  269  for i in {1..10}; do touch $i.txt; done
+  270  for i in {1..10}; do touch myfile-$i.txt; done
+  271  for i in {0..50}; do echo "$x"; done > nuuuumbers/
+  272  for i in {0..50}; do echo "$x"; done > nuuuumbers.txt
+  273  for i in {0..50}; do echo "$x"; done 
+  274  for i in {0..50}; do echo "$x"; done 
+  275  for i in {0..50}; do echo $x; done 
+  276  for i in {1..50}; do echo $x; done 
+  277  for i in {1..50}; do echo $i; done 
+  278  comand-line vim tags.txt
+  279  vim tags.txt
+  280  ls
+  281  cat tags
+  282  cd tags
+  283  ls
+  284  cat tags.txt 
+  285  vin tags.txt 
+  286  vim tags.txt 
+  287  vim tags.txt 
+  288  vim script.sh
+  289  vim script.sh tags.txt
+  290  sh script.sh
+  291  sh script.sh
+  292  ls
+  293  sh script.sh
+  294  ls
+  295  cat script.sh 
+  296  vim script.sh
+  297  sh script.sh
+  298  ls
+  299  ls test
+  300  ls file.txt
+  301  sh script.sh 2> errors.log
+  302  cat errors.log
+  303  ssh-keygen.exe -c "mahmoud.allouh0@gmail.com" -t rsa
+  304  ssh-keygen.exe -C "mahmoud.allouh0@gmail.com" -t rsa
+  305  ls
+  306  pwd
+  307  ls -a
+  308  cd .ssh
+  309  ls
+  310  cat id_rsa.pub
+  311  pwd
+  312  cd hyfcli15/students
+  313  ls hyfcli15
+  314  ls
+  315  cd ..
+  316  ls
+  317  ls students
+  318  pwd
+  319  cd students
+  320  cd mahmoud\assignment
+  321  cd c/Users/mahmoud\assignment
+  322  cd mahmoud/
+  323  cd /c/Users/mahmoud/assignment
+  324  cd /mahmoud\students
+  325  cd students
+  326  cd ..
+  327  cd assignment
+  328  cd mahmoud/ssh
+  329  cd mahmoud\ssh
+  330  cd /mahmoud\ssh
+  331  vim
+  332  ls
+  333  cd moood 
+  334  cat moood
+  335  vim moood
+  336  vim
+  337  cat teess.tzt 
+  338  cd student
+  339  cd ,,
+  340  cd ..
+  341  cd students
+  342  cd hyfcli15/students
+  343  ls l
+  344  ls -l
+  345  cd ../assignment
+  346  cd ..\assignment
+  347  cd ../
+  348  cd ../
+  349  cd ../
+  350  cd ../assignment
+  351  cd mahmoud
+  352  ls
+  353   ls -s
+  354  ls s
+  355  la s
+  356  la s
+  357  ls a
+  358  ls -a
+  359  cd assignment
+  360  cd ../students
+  361  cd ..\students
+  362  cd-
+  363  cd -
+  364  cd /
+  365  sort < numbers.txt
+  366  cd students
+  367  cd /c/Users/mahmoud/students
+  368  pwd
+  369  cd c:
+  370  cd users
+  371  cd mahmoud
+  372  cd students
+  373  cd hyfcli15/students
+  374  echo-e "hello\mahmoud" >waooo.txt
+  375  man sort
+  376  commands
+  377  ls
+  378  sort < names.txt 
+  379  sort -n < names.txt 
+  380  ls
+  381  for i in "1..10"; do echo "$i"; done
+  382  ls
+  383  for i in "1..10"; do echo "$i" > new.txt; done
+  384  for i in {1..10}; do echo "$i" > new.txt; done
+  385  re new.txt 
+  386  re -r new.txt 
+  387  rm new.txt 
+  388  for x in {1..10}; do echo "$x" > new.txt; done
+  389  for x in {1..10}; do echo "$x"; done
+  390  for x in {1..10}; do echo "$x" > neew.txt; done
+  391  for x in {1..10}; do echo "x" > neew.txt; done
+  392  for x in {1..10}; do echo "$x" >> neew.txt; done
+  393  rm neew.txt 
+  394  rm new.txt 
+  395  for i in {1.100}; do echo "$i" > new1.txt; done
+  396  for i in {1..100}; do echo "$i" > new1.txt; done
+  397  for i in {1..100}; do echo "$i" >> new1.txt; done
+  398  sort -n new1.txt 
+  399  sort -n tail 20 new1.txt 
+  400  sort -n, ail 20 new1.txt 
+  401  sort --help
+  402  sort -n [tail20] new1.txt 
+  403  echo -e "mahmoud\nallouh" > new line.txt
+  404  pwd
+  405  ls l
+  406  ls -l
+  407  echo -e "mahmoud\nallouh" > newline.txt
+  408  ls
+  409  cat newline.txt 
+  410  echo -e "mahmoud\nallouh" >> newline.txt
+  411  echo -e "mahmoud\n allouh" >> newline.txt
+  412  echo -e "mahmoud\n allouh" >> newline.txt
+  413  echo -e "mahmoud\r allouh" >> newline.txt
+  414  echo -e "mahmoud\r" >> newline.txt
+  415  touch newtest.txt && echo "tst" > newtest.txt
+  416  echo "hello word" >> newtest.txt && cat newtest.txt 
+  417  touch mewo.sh
+  418  ls
+  419  sh mewo.sh 
+  420  rm mewo.sh 
+  421  rm newline.txt 
+  422  ls
+  423  cp moody.txt mama.txt 
+  424  rm cat mama.txt 
+  425  touch mama.txt
+  426  cp moody.txt mama.txt , waw.txt 
+  427  cd homework2
+  428  ..
+  429  cd ..
+  430  cd homework2
+  431  ls
+  432  for i in {1..5}; do echo "Hello" > greetings.txt; done
+  433  cat greetings.txt 
+  434  for i in {1..5}; do echo "Hello" > greetings.txt; done
+  435  cat greetings.txt 
+  436  rm greetings.txt 
+  437  for i in {1,,5}; do echo "Hello" > greetings.txt; done
+  438  cat greetings.txt 
+  439  cat greetings.txt 
+  440  rm greetings.txt 
+  441  for i in {1..5}; do echo "Hello"; done
+  442  for i in {1..5}; do echo "Hello" > greetings.txt; done
+  443  cat greetings.txt 
+  444  for i in {1..5}; do echo "Hello" >> greetings.txt; done
+  445  cat greetings.txt 
+  446  rm greetings.txt 
+  447  cp greetings.txt text1.txt text2.txt text3.txt text4.txt text5.txt
+  448  touch [text1.txt text2.txt}
+  449  LS
+  450  touch text1.txt text2.txt
+  451  ls
+  452  rm text1.txt text2.txt 
+  453  ls
+  454  cp greetings.txt touch text1.txt
+  455  touch text1.txt && cp greetings.txt text1.txt
+  456  cat text1.txt 
+  457  rm text1.txt 
+  458  for i in {1..5}; do touch text-$i.txt; done
+  459  ls
+  460  for i in {1..5}; do touch text-$i.txt; done && cp greetings.txt[text1.txt text2.txt text3.txt text4.txt text5.txt]
+  461  for i in {1..5}; do touch text-$i.txt; done && cp greetings.txt[text-1.txt text-2.txt text-3.txt text-4.txt text-5.txt]
+  462  cp greetings.txt text-1.txt && text-2.txt
+  463  cp greetings.txt text-1.txt / text-2.txt
+  464  for i in /text-1 /text-2
+  465  for i in /text-1 /text-2; do cp "$greetings.txt" "$i"; done 
+  466  for i in {text-1.txt. text-2.txt}; do cp "$greetings.txt" "$i"; done 
+  467  pwd
+  468  ls
+  469  cat text-1.txt 
+  470  cp greetings.txt *.txt
+  471  cp greetings.txt text-1.txt text-2.txt
+  472  cp greetings.txt text.txt
+  473  pwd
+  474  ls
+  475  echo text-1.txt text-2.txt text-3.txt text-4.txt text-5 | xargs -n 1 cp greetings.txt 
+  476  cat text-1.txt 
+  477  cat pets.txt 
+  478  echo -e "dog\n horse" >> pets
+  479  cat pets
+  480  echo -e "cat\nls\npwd" > comans.txt
+  481  cat comans.txt 
+  482  rm comans.txt 
+  483  cat pets.txt commands.txt | sort |uniq > lovellycommands.txt
+  484  cat lovellycommands.txt 
+  485  cat pets.txt commands.txt 
+  486  rm lovellycommands.txt 
+  487  history > c.txt
+  488  cat c
+  489  cat c.txt 
+  490  rm c.txt 
+  491  pwd
+  492  cd hyfcli15
+  493  mkdir home work 2
+  494  mkdir home work 1
+  495  mkdir home work 1 again
+  496  pwd
+  497  mkdir homework1again
+  498  pwd
+  499  pwd
+  500  cd homework1again
+  501  touch hidden.txt
+  502  attrib +h hidden.txt 
+  503  mkdir -p These/folders/are/just/for/fun
+  504  ls
+  505  echo "test" > fun.txt
+  506  echo "another test" >> fun.txt 
+  507  wc -c fun.txt 
+  508  cat fun.txt 
+  509  echo "test another test" >> fun.txt 
+  510  cat fun.txt 
+  511  history historyhw1.txt
+  512  history > historyhw1.txt
