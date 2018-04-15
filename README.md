@@ -5,3 +5,4 @@ homework setup repository example
 - https://allouhm.github.io/-hyf-html-css-/week0/
 - https://allouhm.github.io/-hyf-html-css-/week1/
 - https://allouhm.github.io/-hyf-html-css-/week2/
+- https://allouhm.github.io/-hyf-html-css-/week3/
