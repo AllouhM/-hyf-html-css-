@@ -270,7 +270,7 @@ label {
 @media (max-width: 700px) {
     #nav {
         height:125px;
-        z-index: 1;
+        z-index: 2;
     }
     label { 
         display: block;
@@ -310,6 +310,7 @@ label {
     left:2%;
     width:95%;
     top: 32%;
+    z-index: 3;
  }
  .search-button1  {  width:50px;}
 
